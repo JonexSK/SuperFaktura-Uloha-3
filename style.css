@@ -1,0 +1,105 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: #A6D1FF;
+}
+
+.ico_form
+{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 10%;
+    padding: 5px;
+}
+
+#lbl_ico
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 15px;
+    border-bottom: 1px solid black;
+}
+
+#ico
+{
+    position: relative;
+    width: 80px;
+    height: 15px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 30px;
+    background-color: #535353;
+    border: 2px solid blue;
+}
+
+#ico:focus
+{
+    background-color: #333333;
+    border: 4px solid #197EE9;
+    transition: 0.5s;
+    width: 250px;
+    height: 20px;
+    outline: none;
+}
+
+#ico[value]
+{
+    color: white;
+    text-align: center;
+}
+
+#ico::placeholder
+{
+    color: #A2A2A2;
+}
+
+#ico:focus::placeholder
+{
+    color: transparent;
+}
+
+#odoslat
+{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #197EE9;
+    color: white;
+}
+
+#odoslat:hover
+{
+    cursor: pointer;
+    background-color: #197EE9;
+    color: white;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+
+.xml_okno
+{
+    position: relative;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: auto;
+    left: 50%;
+    top: 55%;
+    font-size: 22px;
+}
+
+.curl
+{
+    color: blue;
+}
